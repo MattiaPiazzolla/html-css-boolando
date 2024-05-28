@@ -36,10 +36,7 @@ header{
 }
 
 .content{
-    background-color: blue;
-    border: 1px solid black;
-    height: 300px;
-    margin: 30px 10px;
+    margin: 40px 10px;
 }
 
 .content-footer{
@@ -47,11 +44,26 @@ header{
     border: 1px solid white;
     height: 100px;
 }
+.img-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt-end{
+    text-align: end;
+}
+.label{
+    padding: 10px;
+    color: #fff;
+}
+.bg-red{
+    background-color: #FE0000;
+}
+.bg-green{
+    background-color: #008104;
+}
 
 /*HEADER*/
-.nav-menu ul{
-
-}
 .nav-menu li{
     display: inline-block;
     list-style: none;
@@ -66,15 +78,11 @@ header{
 .logo{
     width: 25%;
 }
-.img-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .icons-nav{
     color: #fff;
 }
 
-.txt-end{
-    text-align: end;
+/*MAIN*/
+.content img{
+    width: 100%;
 }
