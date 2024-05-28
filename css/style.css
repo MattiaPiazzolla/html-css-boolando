@@ -12,6 +12,7 @@ header{
 footer{
     background-color: #1A1A1A;
     width: 100%;
+    color: #fff;
 }
 
 /*LAYOUT CLASS*/
@@ -43,12 +44,13 @@ footer{
     margin: 40px 10px;
     position: relative;
 }
-
-.content-footer{
-    background-color: black;
-    border: 1px solid white;
-    height: 100px;
+.container-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
 }
+
 .img-center {
     display: flex;
     justify-content: center;
@@ -125,4 +127,23 @@ footer{
 .barred{
     color: black;
     text-decoration: line-through;
+}
+
+/*FOOTER*/
+.content-footer li{
+    list-style: none;
+    display: inline-block;
+    font-size: 10px;
+    margin-right: 2.5px;
+}
+.content-footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.content-footer h4{
+    font-size: 12.5px;
+}
+
+.content-footer h5{
+    font-size: 11px;
 }
