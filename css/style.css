@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: #FE6902;
+    width: 100%;
+    box-shadow: 0 5px 3px -3px #00000030;
+}
+
 /*LAYOUT CLASS*/
 
 .container{
@@ -26,9 +32,7 @@
 
 /*PAGE STYLES*/
 .nav-menu{
-    background-color: red;
-    border: 1px solid black;
-    height: 100px;
+    padding: 20px;
 }
 
 .content{
@@ -42,4 +46,35 @@
     background-color: black;
     border: 1px solid white;
     height: 100px;
+}
+
+/*HEADER*/
+.nav-menu ul{
+
+}
+.nav-menu li{
+    display: inline-block;
+    list-style: none;
+    font-size: 12.5px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.logo{
+    width: 25%;
+}
+.img-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons-nav{
+    color: #fff;
+}
+
+.txt-end{
+    text-align: end;
 }
