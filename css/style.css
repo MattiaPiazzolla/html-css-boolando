@@ -37,6 +37,7 @@ header{
 
 .content{
     margin: 40px 10px;
+    position: relative;
 }
 
 .content-footer{
@@ -52,15 +53,34 @@ header{
 .txt-end{
     text-align: end;
 }
+
+.labels{
+    position: absolute;
+    bottom: 75px;
+    left: 0;
+    display: flex;
+}
 .label{
-    padding: 10px;
+    padding: 5px 10px;
     color: #fff;
+    font-size: 10px;
+}
+.heart{
+    padding: 10px 10px 5px 10px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 20px;
 }
 .bg-red{
     background-color: #FE0000;
+    margin-right: 5px;
 }
 .bg-green{
     background-color: #008104;
+}
+.bg-white{
+    background-color: #fff;
 }
 
 /*HEADER*/
@@ -85,4 +105,20 @@ header{
 /*MAIN*/
 .content img{
     width: 100%;
+}
+.brand{
+    font-size: 10px;
+    font-weight: 100;
+}
+.product{
+    font-size: 12.5px;
+}
+.price{
+    font-size: 10px;
+    font-weight: 100;
+    color: #FA000F;
+}
+.barred{
+    color: black;
+    text-decoration: line-through;
 }
