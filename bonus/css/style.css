@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #FE6902;
+    width: 100%;
+    box-shadow: 0 5px 3px -3px #00000030;
+}
+footer{
+    background-color: #1A1A1A;
+    width: 100%;
+    color: #fff;
+}
+
+/*LAYOUT CLASS*/
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-33{
+    width: calc(100%/3);
+}
+
+.col-50{
+    width: 50%;
+}
+
+/*PAGE STYLES*/
+.nav-menu{
+    padding: 15px;
+}
+
+.content{
+    margin: 40px 10px;
+    position: relative;
+}
+.container-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.img-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt-end{
+    text-align: end;
+}
+
+.labels{
+    position: absolute;
+    bottom: 75px;
+    left: 0;
+    display: flex;
+}
+.label{
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 10px;
+}
+.heart{
+    padding: 10px 10px 5px 10px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+.heart:hover{
+    color: #FE0000;
+}
+
+.bg-red{
+    background-color: #FE0000;
+    margin-right: 5px;
+}
+.bg-green{
+    background-color: #008104;
+}
+.bg-white{
+    background-color: #fff;
+}
+
+.d-block{
+    display: block;
+}
+.d-none{
+    display: none;
+}
+
+.content:hover .d-block{
+    display: none;
+}
+.content:hover .d-none{
+    display: block;
+}
+
+/*HEADER*/
+.nav-menu li{
+    display: inline-block;
+    list-style: none;
+    font-size: 12.5px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.logo{
+    width: 30%;
+}
+.icons-nav{
+    color: #fff;
+}
+
+/*MAIN*/
+.content img{
+    width: 100%;
+}
+.brand{
+    font-size: 10px;
+    font-weight: 100;
+}
+.product{
+    font-size: 12.5px;
+}
+.price{
+    font-size: 10px;
+    font-weight: 300;
+    color: #FA000F;
+}
+.barred{
+    color: black;
+    text-decoration: line-through;
+}
+
+/*FOOTER*/
+.content-footer li{
+    list-style: none;
+    display: inline-block;
+    font-size: 10px;
+    margin-right: 2.5px;
+}
+.content-footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.content-footer h4{
+    font-size: 12.5px;
+}
+
+.content-footer h5{
+    font-size: 11px;
+}
