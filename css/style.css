@@ -11,7 +11,14 @@ header{
     background-color: #FE6902;
     width: 100%;
     box-shadow: 0 5px 3px -3px #00000030;
+    position: fixed;
+    z-index: 1;
 }
+
+main{
+    padding-top: 75px;
+}
+
 footer{
     background-color: #1A1A1A;
     width: 100%;
